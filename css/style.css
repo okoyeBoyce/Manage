@@ -1,0 +1,701 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif; 
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 40px 90px;    
+}
+
+a{
+    text-decoration: none;
+}
+
+.navlink {
+    display: flex;
+    gap: 40px;
+}
+
+.get-started, .superbutton{
+    all: unset;
+    background-color: rgb(250, 110, 17);
+    border-radius: 50px;
+    box-sizing:60px 3px 5p ;
+    box-shadow: 60px 3px 5px var(orange);
+    padding: 10px 25px;
+    color: white;
+    font-size: 12px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 90px;
+}
+
+main div{
+    width: 40%;
+}
+
+main img{
+    width: 50%;
+}
+
+.imagebg{
+    position: absolute;
+    z-index: -1;
+    top: -30%;
+    right: -5%;
+    width: 47%;
+}
+
+.go{
+    font-size: 50px;
+    color: rgb(6, 6, 61);
+    font-weight: 700;
+}
+
+main p{
+    font-size: 19px;
+    line-height: 1.5;
+    color: rgb(167, 167, 177);
+    margin: 20px 0;
+}
+
+.bg2{
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    top: 170%;
+    width: 40%;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 90px;
+    gap: 80px;
+}
+#hm{
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 0;
+}
+
+.header{
+    padding-bottom:310px;
+}
+
+.header h1{
+    font-size: 40px;
+    color: rgb(6, 6, 61);
+    font-weight: 770;
+}  
+
+.header p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(167, 167, 177);
+    margin: 20px 0;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.p1{
+    border-radius: 50px;
+    background-color: rgb(240, 49, 1);
+    color:white ;
+    padding:11px 21px;
+}
+
+h2{
+    font-size: 16px;
+}
+    
+.main-text{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(167, 167, 177);
+    margin: 20px 100px;  
+}
+
+#testimo{
+    display: grid;
+    margin: 150px 0 200px 0;
+}
+
+.testimo-m{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(6, 6, 61);
+    font-weight: 700;
+    
+}
+
+.started{
+   all: unset;
+    background-color: rgb(250, 110, 17);
+    border-radius: 50px;
+    padding: 10px 25px;
+    color: white;  
+    margin: 12px 500px;
+    font-size: 12px;
+}
+
+.testimo-t{
+    align-items: center;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 30px;
+    margin:0 90px 0 0;
+    width: 104%;
+}
+
+.sch{
+    background-color: rgb(248, 244, 244);
+}
+
+.avater{
+    width:20%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -20px;
+}
+
+.testimo-ss h2{
+    text-align: center;
+}
+
+.testimo-ss p{
+    text-align: center;
+    color: rgb(167, 167, 177);
+}
+
+#red{
+    background-color: rgb(243, 91, 45);
+}
+
+.red-text{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 58px 0px;
+    gap: 300px;
+
+    
+    
+}
+
+.red-text p{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    width:50%;
+    line-height: 1.4;
+    font-weight: 700;
+
+}
+
+.red-button{
+    all: unset;
+    background-color: white;
+    border-radius: 50px;
+    padding: 12px 30px;
+    color: rgb(243, 91, 45);
+    font-size: 12px;
+
+}
+
+#footer {
+    background-color: hsl(233, 12%, 13%); 
+    padding:50px 0 18px 150px;
+
+}
+
+.main-footer{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 220px;
+}
+
+.imgicon img{
+    padding:24px 0 24px 0 ; 
+    color: azure; 
+}
+
+
+.icon{
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 29px 12px;
+    gap: 17px;
+}
+
+.icon a{
+    color: azure;
+}
+
+
+
+.social{
+    display: flex;
+    gap: 100px;
+    line-height: 2;
+}
+
+.social a{
+    display: grid;
+    color: white;
+    font-size: 14px;
+    line-height: 2.3;
+}
+
+.go{
+    margin: -50px 0 0 0;
+}
+
+.footerbutton-1{
+    all: unset;
+    background-color: white;
+    border-radius: 50px;
+    padding: 12px 30px;
+    color: rgb(187, 179, 176);
+    font-size: 14px;
+}
+
+.footerb-2{
+    all: unset;
+    background-color: rgb(243, 91, 45) ;
+    border-radius: 50px;
+    padding: 12px 30px;
+    color: rgb(17, 16, 16);
+    font-size: 14px; 
+}
+
+.go-2 p{
+    font-size: 11px;
+    color: white;
+    padding: 30px 0 0 0;
+}
+
+.togglers{
+    display: none;
+}
+
+@media screen and (max-width:992px) {
+
+    nav{
+        padding: 40px 50px 40px 80px;  
+    }
+
+    .navlink{
+        gap: 20px;
+    }
+
+    main{
+        padding: 40px 50px 50px 80px;
+    
+    }
+
+    main div{
+        width: 50%;
+    }
+
+    .go{
+        font-size: 30px;
+        font-weight: 790;
+        padding-top: 20px;
+
+    }
+
+    main p{
+        font-size: 18px;
+    }
+
+    .superbutton{
+        margin-top:15px ;
+    }
+
+    .imagebg{
+        position: absolute;
+        z-index: -1;
+        top: -10%;
+        right: -5%;
+        width: 47%;
+    }    
+
+    #hm{
+        padding: 0 0 0 80px;
+        gap: 30px;
+    }
+
+    .header{
+        padding-bottom: 370px
+    }
+
+    .header h1{
+        font-size:33px ;
+        font-weight: 780;
+    }
+
+    .header p{
+        font-size: 17px;
+    } 
+
+    .main-text{
+        margin: 20px 60px 20px 80px;
+        font-size: 17px;
+    }
+
+    .bg2{
+        position: absolute;
+    z-index: -1;
+    left: -20%;
+    top: 180%;
+    width: 40%;
+    }
+
+    #testimo{
+        margin: 30px 0 50px 0;
+        padding: 50px;
+        gap: 100px;
+    }
+
+    .testimo-m{
+        all: unset;
+        text-align: center;
+        font-size: 25px;
+        padding-right:300px ;
+    } 
+
+    .testimo-t{
+        display: grid;
+    }
+
+    .red-text{
+        padding: 35px 0 35px 50px;
+        gap: 0;
+    }
+
+    .red-text p{
+        font-size: 35px;
+    }
+    
+    .main-footer{
+        gap: 40px;
+    }
+
+    section{
+        padding: 0 35px;
+    }
+
+    #footer{
+        padding: 15px 30px 15px 80px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    nav{
+        gap:20px ;
+        padding: 25px 30px 53px 30px;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .navlink{
+        font-size:85%;
+        gap: 12px;
+    }
+
+    main{
+        padding: 25px 25px 40px 25px;
+    }
+
+    .go{
+        font-size:29px;
+    }
+
+    main p{
+       margin:20px 12px 20px 0; 
+    }
+
+    main img{
+        width: 53%;
+        padding-bottom:22px;
+    }
+
+    #hm{
+        margin: 0;
+        padding: 0 20px 0 20px;
+        gap: 35px;
+    }
+
+    h2{
+        font-size: 15px;
+    } 
+
+    .main-text{
+        margin: 20px 0 20px 75px; 
+        font-size: 14px; 
+    }
+
+    .header{
+        padding-bottom:280px ;
+    }
+
+    .header h1{
+        font-size: 29px;
+    }
+
+    .red-text{
+        padding:53px 30px 53px 0 ;
+        gap: 100px;
+    } 
+
+    .red-text p{
+        font-size: 20px
+    }
+
+    #footer{
+        padding:20px 0px 20px 30px;
+    }
+
+    .social{
+        gap: 30px;
+    }
+
+    .footerbutton-1{
+        font-size: 12px;
+        padding: 12px 9px;
+    } 
+
+    .footerb-2{
+        padding: 9px 11px;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    nav{
+        padding: 20px 30px 30px 23px;  
+    }
+
+    .navlink{
+        position: fixed;
+        flex-direction: column;
+        background-color: white;
+        top: -25%;
+        left: 40%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        width: 40%;
+        padding: 2rem;
+        border-radius: 10px;
+        border: 1px solid black;
+        transition: 1s;
+        z-index: 1;
+        font-size: 100%;
+    }
+
+    .togglers{
+        display: block;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .ri-close-fill{
+        display: none;
+    }
+
+    .get-started{
+        display: none;
+    }
+
+    .imagebg{
+        width: 101%;
+        right: -27%;
+    }
+
+    main{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 8px 25px 110px 25px;
+    }
+
+    main img{
+        width:100%;
+        padding-bottom:40px;
+    } 
+
+    .go{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 795;
+        margin: -30px -80px 0 -80px ;
+        line-height: 1.5;
+    }
+
+    main p{
+        text-align: center;
+        margin: 20px -80px 20px -80px;
+        line-height: 1.5;
+    }
+
+    .superbutton{
+        display: none;
+    }
+
+    #hm{
+        display: grid;
+    }
+
+    .header h1{
+        text-align: center;
+        font-size: 21px;
+    }
+    
+    .header p{
+        text-align: center;
+    }
+
+    .bg2{
+        width:50%;
+        top: 110%;
+        left: -45%;
+    }
+
+    .header{
+        padding-bottom: 0;
+    }
+
+    h2{
+        font-size: 17px;
+    }
+
+    .text{
+        background-color: rgb(252, 193, 201);
+        padding-left: 90px;
+    }
+
+    .p1{
+        margin-left: -105px;
+    }
+
+    .main-text{
+        font-size: 17px;
+        margin: 20px 0 20px 0;
+        line-height: 1.5;
+    }
+
+    .red-text{
+        align-items: center;
+        display: grid;
+        gap: 25px;
+        padding: 53px 30px 53px 70px;
+
+    }
+
+    .red-text p{
+        text-align: center;
+        font-size:31px ;
+        width:83%;
+    }
+
+    .red-button{
+        margin-left: 70px;
+    }
+
+    .main-footer{
+        flex-direction: column-reverse;
+        padding: 50px 0 1px 70px;
+    
+    }
+
+    .footerbutton-1{
+        align-items: center;
+        font-size: 14px;
+        padding: 8px 30px 8px 12px;
+    }
+
+    .footerb-2{
+        padding: 11px 20px;
+        font-size: 13px;
+    }
+
+    .social{
+        gap: 125px;
+    }
+
+    .social a{
+        font-size: 16px;
+        line-height: 2.5;
+    }
+}
+
+    @media screen and (max-width:480px){ 
+
+    .go{
+        font-size: 30px;
+        font-weight: 798;
+        margin: -30px -81px 0 -81px;
+    } 
+
+    main p{
+        margin: 10px -60px 10px -60px;
+    }
+
+    .red-text{
+        padding: 53px 10px 53px 50px;
+    }
+
+    .red-button{
+       margin-left: 47px; 
+    }
+
+    .main-footer{
+        padding: 50px 0 1px 16px; 
+    }
+}
+
+@media screen and (max-width:375px) {
+    main img{
+        width: 95%;
+    } 
+
+    .go{
+        margin: -30px -90px 0 -90px;  
+    }
+}
+
+
+
+
+
+
+
+
+
